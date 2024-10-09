@@ -46,6 +46,7 @@
 @media (max-width: 1024px){
   .section__cadastrar__image{
     width: 250px;
+    margin-top: 250px;
   }
   
 }

@@ -13,21 +13,31 @@
             <li>
               <a href="">HOME</a>
             </li>
+          </ul>
+          <ul>
             <li>
               <a href="">COMO PARTICIPAR</a>
             </li>
+          </ul>
+          <ul>
             <li>
               <a href="">PRÊMIOS</a>
             </li>
+          </ul>
+          <ul>
             <li>
               <a href="">DUVIDAS FREQUENTES</a>
             </li>
+          </ul>
+          <ul>
             <li>
               <a href="">GANHADORES</a>
             </li>
-            <li>
-              <button type="button">LOGIN</button>
-            </li>
+          </ul>
+        <ul>
+          <li>
+            <button type="button">LOGIN</button>
+          </li>
         </ul>
       </nav>
     </div>
@@ -36,9 +46,11 @@
 
 <style scoped>
 .header{
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 1000;
   background-color: #fff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -48,7 +60,7 @@
 }
 
 a{
-  color:black;
+  color:black
 }
 
 .nav__bar{
@@ -70,7 +82,7 @@ a{
 
 @media (max-width: 1024px){
   .header__items{
-    
+    position: static;
     flex-direction: column;
     gap: 1rem;
   }
@@ -80,8 +92,8 @@ a{
   }
   .header{
     height: auto;
+    position: inherit;
     padding: 1rem 0;
-    position:initial;
   }
 }
 </style>
