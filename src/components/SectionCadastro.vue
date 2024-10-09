@@ -43,10 +43,11 @@
   width: 100%;
 }
 
-@media (max-width: 300px){
+@media (max-width: 1024px){
   .section__cadastrar__image{
     width: 250px;
   }
+  
 }
 
 </style>
