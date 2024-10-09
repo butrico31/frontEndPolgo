@@ -12,7 +12,7 @@
                 </div>
                 <div>
                     <p>Powered by</p>
-                    <img src="C:\Users\Pc\Desktop\Nova pasta\front\my-vue-app\src\assets\image.png" alt="">
+                    <img src="../assets/image.png" alt="">
                 </div>
             </div>
             <div class="center">
@@ -34,16 +34,16 @@
             <div class="right">
                 <ul class="icons__row">
                     <li>
-                        <a href=""><img src="C:\Users\Pc\Desktop\Nova pasta\front\my-vue-app\src\assets\facebook.png" alt=""></a>
+                        <a href=""><img src="../assets/facebook.png" alt=""></a>
                     </li>
                     <li>
-                        <a href=""><img src="C:\Users\Pc\Desktop\Nova pasta\front\my-vue-app\src\assets\instagram.png" alt=""></a>
+                        <a href=""><img src="../assets/instagram.png" alt=""></a>
                     </li>
                     <li>
-                        <a href=""><img src="C:\Users\Pc\Desktop\Nova pasta\front\my-vue-app\src\assets\youtube.png" alt=""></a>
+                        <a href=""><img src="../assets/youtube.png" alt=""></a>
                     </li>
                     <li>
-                        <a href=""><img src="C:\Users\Pc\Desktop\Nova pasta\front\my-vue-app\src\assets\LinkedIn.png" alt=""></a>
+                        <a href=""><img src="../assets/LinkedIn.png" alt=""></a>
                     </li>
                 </ul>
                 <ul class="column__links">
