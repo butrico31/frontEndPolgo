@@ -11,7 +11,7 @@ const groupedWinners = ref([]);
 
 const fetchWinners = async () => {
     try {
-        const response = await fetch('https://backendpolgo.onrender.com/winner');
+        const response = await fetch('https://backendpolgo.onrender.com/winners');
         const data = await response.json();
         winners.value = data;
         groupWinnersByDate();
